@@ -13,7 +13,7 @@ body {
 
 .top_menu {
     position: fixed;
-    top: 3rem;
+    top: 2.5rem;
     right: 0;
     display: flex;
 }
@@ -45,6 +45,51 @@ body {
 
 
 
+main {
+    height: calc(100vh - 10.2rem);
+    max-width: 1300px;
+    margin-top: 5rem;
+    margin-inline: auto;
+    margin-bottom: 4rem;
+    display: flex;
+    gap: 0.4rem;
+    align-items: baseline;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.user {
+    position: relative;
+    flex: 1 0 calc((1300px / 7) - 0.8rem);
+    /* margin-bottom: 1rem; */
+}
+
+.user_img {
+    height: 100%;
+}
+
+.user_img img {
+    width: 100%;
+}
+
+.username {
+    position: absolute;
+    left: 0rem;
+    bottom: 0.2rem;
+    padding: 0.2rem;
+    background-color: rgba(50, 50, 50, 0.7);
+}
+
+.username:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
 .bottom_menu {
     height: 4.7rem;
     position: fixed;
@@ -62,6 +107,12 @@ body {
     margin-bottom: 0.5rem;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.bottom_menu .small {
+    font-weight: 100;
+    display: flex;
     align-items: center;
 }
 
