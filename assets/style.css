@@ -116,6 +116,10 @@ main {
     align-items: center;
 }
 
+.bottom_menu .small:hover{
+    cursor: pointer;
+}
+
 .left_menu {
     flex: 0 0 max-content;
     padding-inline: 1rem;
